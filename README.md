@@ -117,6 +117,3 @@ python -m pytest tests/ -q
 | `PII_FAKER_SEED` | Reproducible fakes |
 | `PII_LOG_LEVEL` | `INFO` / `DEBUG` |
 
-## Extending
-
-Add a `PIIType`, a regex or Presidio mapping, a Faker generator, and a gold example. Overlap priority already lives in `TYPE_PRIORITY`.
