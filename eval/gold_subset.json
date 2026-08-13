@@ -1,0 +1,107 @@
+{
+  "description": "Manually labeled PII on a few high-density pages of the Red Herring Prospectus. Used for precision/recall on a subset, not the full 126 pages.",
+  "pages": [
+    {
+      "page_number": 1,
+      "entities": [
+        {"text": "KSH INTERNATIONAL LIMITED", "entity_type": "ORGANIZATION"},
+        {"text": "Sarthak Malvadkar", "entity_type": "PERSON"},
+        {"text": "cs.connect@kshinternational.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "+ 91 20 45053237", "entity_type": "PHONE_NUMBER"},
+        {"text": "www.kshinternational.com", "entity_type": "URL"},
+        {"text": "KUSHAL SUBBAYYA HEGDE", "entity_type": "PERSON"},
+        {"text": "PUSHPA KUSHAL HEGDE", "entity_type": "PERSON"},
+        {"text": "RAJESH KUSHAL HEGDE", "entity_type": "PERSON"},
+        {"text": "ROHIT KUSHAL HEGDE", "entity_type": "PERSON"},
+        {"text": "RAKHI GIRIJA SHETTY", "entity_type": "PERSON"},
+        {"text": "DHAULAGIRI FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "EVEREST FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "MAKALU FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "BROAD FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "ANNAPURNA FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "KANCHENJUNGA FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED", "entity_type": "ORGANIZATION"},
+        {"text": "Birdewadi", "entity_type": "LOCATION"},
+        {"text": "Pune", "entity_type": "LOCATION"},
+        {"text": "Baner", "entity_type": "LOCATION"},
+        {"text": "11/5 Village Birdewadi", "entity_type": "ADDRESS"},
+        {"text": "Montreal Business Centre", "entity_type": "ADDRESS"}
+      ]
+    },
+    {
+      "page_number": 2,
+      "entities": [
+        {"text": "Kushal Subbayya Hegde", "entity_type": "PERSON"},
+        {"text": "Pushpa Kushal Hegde", "entity_type": "PERSON"},
+        {"text": "Rajesh Kushal Hegde", "entity_type": "PERSON"}
+      ]
+    },
+    {
+      "page_number": 4,
+      "entities": [
+        {"text": "ksh.ipo@nuvama.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "ksh@icicisecurities.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "kshinternational.ipo@in.mpms.mufg.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "+91 22 4009 4400", "entity_type": "PHONE_NUMBER"},
+        {"text": "+91 22 6807 7100", "entity_type": "PHONE_NUMBER"},
+        {"text": "+91 81081 14949", "entity_type": "PHONE_NUMBER"},
+        {"text": "ICICI Securities Limited", "entity_type": "ORGANIZATION"},
+        {"text": "MUFG Intime India Private Limited", "entity_type": "ORGANIZATION"},
+        {"text": "Link Intime India Private Limited", "entity_type": "ORGANIZATION"},
+        {"text": "Kishan Rastogi", "entity_type": "PERSON"},
+        {"text": "Abhijit Diwan", "entity_type": "PERSON"},
+        {"text": "Shanti Gopalkrishnan", "entity_type": "PERSON"}
+      ]
+    },
+    {
+      "page_number": 5,
+      "entities": [
+        {"text": "KSH INTERNATIONAL LIMITED", "entity_type": "ORGANIZATION"},
+        {"text": "Bhandary Metal Extrusion Private Limited", "entity_type": "ORGANIZATION"},
+        {"text": "KSH International Private Limited", "entity_type": "ORGANIZATION"},
+        {"text": "KSH International Limited", "entity_type": "ORGANIZATION"},
+        {"text": "Sarthak Malvadkar", "entity_type": "PERSON"},
+        {"text": "cs.connect@kshinternational.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "+ 91 20 4505 3237", "entity_type": "PHONE_NUMBER"},
+        {"text": "www.kshinternational.com", "entity_type": "URL"},
+        {"text": "KUSHAL SUBBAYYA HEGDE", "entity_type": "PERSON"},
+        {"text": "PUSHPA KUSHAL HEGDE", "entity_type": "PERSON"},
+        {"text": "RAJESH KUSHAL HEGDE", "entity_type": "PERSON"},
+        {"text": "ROHIT KUSHAL HEGDE", "entity_type": "PERSON"},
+        {"text": "RAKHI GIRIJA SHETTY", "entity_type": "PERSON"},
+        {"text": "DHAULAGIRI FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "EVEREST FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "MAKALU FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "BROAD FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "ANNAPURNA FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "KANCHENJUNGA FAMILY TRUST", "entity_type": "ORGANIZATION"},
+        {"text": "WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED", "entity_type": "ORGANIZATION"},
+        {"text": "Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501", "entity_type": "ADDRESS"},
+        {"text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045", "entity_type": "ADDRESS"},
+        {"text": "Nuvama Wealth Management Limited", "entity_type": "ORGANIZATION"},
+        {"text": "ICICI Securities Limited", "entity_type": "ORGANIZATION"},
+        {"text": "MUFG Intime India Private Limited", "entity_type": "ORGANIZATION"},
+        {"text": "Link Intime India Private Limited", "entity_type": "ORGANIZATION"},
+        {"text": "Lokesh Shah", "entity_type": "PERSON"},
+        {"text": "Soumavo Sarkar", "entity_type": "PERSON"},
+        {"text": "Kishan Rastogi", "entity_type": "PERSON"},
+        {"text": "Abhijit Diwan", "entity_type": "PERSON"},
+        {"text": "Shanti Gopalkrishnan", "entity_type": "PERSON"},
+        {"text": "ksh.ipo@nuvama.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "ksh@icicisecurities.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "kshinternational.ipo@in.mpms.mufg.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "customerservice.mb@nuvama.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "customercare@icicisecurities.com", "entity_type": "EMAIL_ADDRESS"},
+        {"text": "+91 22 40094400", "entity_type": "PHONE_NUMBER"},
+        {"text": "+91 22 6807 7100", "entity_type": "PHONE_NUMBER"},
+        {"text": "+91 81081 14949", "entity_type": "PHONE_NUMBER"},
+        {"text": "801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051", "entity_type": "ADDRESS"},
+        {"text": "ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025", "entity_type": "ADDRESS"},
+        {"text": "C-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083", "entity_type": "ADDRESS"},
+        {"text": "Pune", "entity_type": "LOCATION"},
+        {"text": "Mumbai", "entity_type": "LOCATION"},
+        {"text": "Bombay", "entity_type": "LOCATION"}
+      ]
+    }
+  ]
+}
