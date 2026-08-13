@@ -1,8 +1,6 @@
 # Evaluation Report — PII Redaction Pipeline
 
 Source document: `input/Red Herring Prospectus.docx` (KSH International Limited).
-The assignment file is the brief only. It is not redacted.
-Run date: 13 August 2026.
 
 ## Detection strategy
 
@@ -60,11 +58,10 @@ Email recall is 100% — the Word cell already has `cs.connect@kshinternational.
 
 ## Challenges
 
-1. **PDF was the wrong input.** Extracting the PDF flattened 76 tables and split emails. The company already provided a DOCX; that is what we redact.
-2. **Legal NER noise.** spaCy tags `Cap Price` and `OFFER` as people or orgs. Allowlists and legal-suffix filters matter.
-3. **Dates are not DOB.** Redacting `December 10, 2025` would destroy a prospectus.
-4. **Mixed runs.** Replacing inside a paragraph may flatten bold/italic on that paragraph. Tables and heading styles stay.
-5. **Presidio NER vs validators.** Pattern-only Presidio is the production trade-off.
+1. **Legal NER noise.** spaCy tags `Cap Price` and `OFFER` as people or orgs. Allowlists and legal-suffix filters matter.
+2. **Dates are not DOB.** Redacting `December 10, 2025` would destroy a prospectus.
+3. **Mixed runs.** Replacing inside a paragraph may flatten bold/italic on that paragraph. Tables and heading styles stay.
+4. **Presidio NER vs validators.** Pattern-only Presidio is the production trade-off.
 
 ## Assumptions
 
