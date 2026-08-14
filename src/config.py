@@ -48,6 +48,7 @@ class PathConfig:
         return self.output_dir / self.metrics_filename
 
 
+# Controls how extracted data should behave
 @dataclass(frozen=True, slots=True)
 class ExtractorConfig:
     sort_blocks: bool = False
@@ -55,7 +56,7 @@ class ExtractorConfig:
     repair_pdf_artifacts: bool = True
     keep_empty_pages: bool = True
 
-
+# Controls how the PII detector behaves
 @dataclass(frozen=True, slots=True)
 class DetectorConfig:
     enable_regex: bool = True
@@ -65,6 +66,7 @@ class DetectorConfig:
     presidio_language: str = "en"
     default_score_threshold: float = 0.40
     score_thresholds: dict[PIIType, float] = field(
+        # Threshold's per-PII
         default_factory=lambda: {
             PIIType.PERSON: 0.50,
             PIIType.ORGANIZATION: 0.55,
@@ -115,7 +117,7 @@ class LoggingConfig:
     fmt: str = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
     datefmt: str = "%Y-%m-%d %H:%M:%S"
 
-
+# Main purpose of this is to reduce False Positives
 @dataclass(frozen=True, slots=True)
 class PrecisionPolicyConfig:
     organization_allowlist: frozenset[str] = field(
